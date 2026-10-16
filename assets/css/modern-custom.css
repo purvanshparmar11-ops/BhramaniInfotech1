@@ -716,3 +716,9 @@ h1, h2, h3, h4, h5, h6 {
 .copywrite-txt a {
   color: var(--bi-primary);
 }
+
+.dynamic-nav .has-dropdown > a::after,
+.dynamic-nav .has-dropdown > .nav-link::after {
+    display: none !important;
+    content: none !important;
+}
